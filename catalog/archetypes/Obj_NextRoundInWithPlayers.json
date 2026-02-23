@@ -1,0 +1,96 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "Obj_NextRoundInWithPlayers",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "Objectives_Objective_Create",
+        "guid": "08F0D3BE4785A5F85C8C40ABB4DE631C",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_EmptyText",
+                  "guid": "2FDB788141313D7855C36F9B27967345"
+                },
+                "guid": "610B4A8E452B05769000CABC2F1D3C05",
+                "type": "Function"
+              }
+            ],
+            "guid": "724C18E34B98215D4F95B9849F128AD0",
+            "id": "text"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_EmptyText",
+                  "guid": "C1BEED764D3226F69E71108A6EC9757F"
+                },
+                "guid": "7B6765C74E9659B5812111B972235EF6",
+                "type": "Function"
+              }
+            ],
+            "guid": "3F6AA87F4DE796105CFC1EA7088F4C48",
+            "id": "details"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "4F96D30D4B06DBC217F0D7B3F7831E28",
+                "preset": {
+                  "guid": "54C275624ADD9FFC98BDBD89F83FE454",
+                  "preset_id": "Objective_StatePreset",
+                  "value_id": "incomplete"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "6EE44D444C1961A1404382BD119F9F82",
+            "id": "state"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "342D28B94FE06BEAD28A8BB530E2AF8A",
+                "preset": {
+                  "guid": "389B038042EDDDBE20806A8941C0A5EE",
+                  "preset_id": "General_Visible",
+                  "value_id": "visible"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "C463D8F649B71CE671E57F9E7C27A9C5",
+            "id": "visible"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "F4C2F10F4D4BA7143BA1C89128956AC2"
+                },
+                "guid": "46A02BA4458685D5FAD2BE8CA7C72802",
+                "type": "Function"
+              }
+            ],
+            "guid": "85D335BF4E810E1858E195AE05A4B37E",
+            "id": "player_group"
+          }
+        ]
+      },
+      "guid": "FA7FF28A4F8172027AC9689ECBBCC893",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Objective"
+  }
+}

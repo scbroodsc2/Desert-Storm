@@ -1,0 +1,55 @@
+﻿{
+  "abilityList": [
+    "UnderConstruction_Vanguard",
+    "structureProductionQueueAbilityData",
+    "MorphToHQTier3"
+  ],
+  "build_cost": {
+    "resource_a": 600.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "commandList": [
+    {
+      "ability": "MorphToHQTier3",
+      "button": "HQTier3Upgrade_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "enabled_unit_tech": [
+    {
+      "unit": "Scrapyard"
+    },
+    {
+      "unit": "HangarBay"
+    },
+    {
+      "unit": "Warforge"
+    },
+    {
+      "unit": "SolarHabitat"
+    }
+  ],
+  "id": "HQTier2",
+  "starting_snowtags": [
+    "entity_unit_structure",
+    "preventdefeat_elimination",
+    "heightplane_ground",
+    "attribute_mechanical",
+    "attribute_heavy",
+    "status_invulnerable"
+  ],
+  "vital_energy": {
+    "maximum": 0.0,
+    "regen": 0.0,
+    "starting": 0.0
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "amount": 150.0,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 2.5
+    }
+  ],
+  "based_on": "BaseGameEffectDamageRadius",
+  "damage_impact_fx": "BP_FXI_DemonReward_Impact",
+  "death_type": "Burning_DeathType",
+  "friendly_fire_percentage": 0.0,
+  "id": "Weapon_DamageRadius_DS_DeepOne",
+  "location_impact_fx": "BP_FXI_Firefall_InitialImpact",
+  "ragdoll": {
+    "enable_chance": true,
+    "launch_angle": 40.0,
+    "launch_power": 1.0
+  }
+}

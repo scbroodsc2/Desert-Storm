@@ -1,0 +1,6 @@
+﻿{
+  "based_on": "BaseButton",
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Editor/UI_Icons_Editor_BuildMap.UI_Icons_Editor_BuildMap'",
+  "id": "DS_ClickMeHint",
+  "name": "pegasus_core|Button_Name_DS_ClickMeHint"
+}

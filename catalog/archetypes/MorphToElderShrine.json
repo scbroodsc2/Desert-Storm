@@ -1,0 +1,15 @@
+﻿{
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 0.0,
+        "name": "MorphToElderShrine",
+        "scope": "Ability"
+      },
+      "requirement": "CompletedTwilightSpireORCompletedBloodTree_Requirement",
+      "unit": "ElderShrine"
+    }
+  ],
+  "id": "MorphToElderShrine",
+  "morph_duration": 0.0
+}

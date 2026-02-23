@@ -1,0 +1,34 @@
+﻿{
+  "data": {
+    "based_on": "MorphAbilityData",
+    "command_visualizer": "None",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "NoRequirement",
+        "unit": "CollectionArray"
+      }
+    ],
+    "flags": {
+      "approach": true,
+      "best_unit": true,
+      "builds": false,
+      "cancelable": true,
+      "disable_abilities": true,
+      "orient_like_structure": false,
+      "perform_height_transition": false,
+      "placement": false,
+      "unload_cargo": false,
+      "upgrade": false
+    },
+    "id": "Ability_Morph_DSCollectionArray",
+    "morph_duration": 20.0,
+    "progress_description": "pegasus_core|MorphAbilityData_progress_description_Progress",
+    "target_actor": "BP_MorphTargeting"
+  },
+  "meta": {}
+}

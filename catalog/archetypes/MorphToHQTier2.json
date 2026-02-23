@@ -1,0 +1,15 @@
+﻿{
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 50.0,
+        "name": "Morph_HQ_00_to_01",
+        "scope": "Ability"
+      },
+      "requirement": "Req_CompletedBarracks",
+      "unit": "HQTier2"
+    }
+  ],
+  "id": "MorphToHQTier2",
+  "morph_duration": 0.0
+}

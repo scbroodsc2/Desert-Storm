@@ -1,0 +1,15 @@
+﻿{
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 0.0,
+        "name": "MorphToGreaterShrine",
+        "scope": "Ability"
+      },
+      "requirement": "CompletedIronVaultORCompletedConclave_Requirement",
+      "unit": "GreaterShrine"
+    }
+  ],
+  "id": "MorphToGreaterShrine",
+  "morph_duration": 0.0
+}

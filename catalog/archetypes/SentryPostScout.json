@@ -1,0 +1,15 @@
+﻿{
+  "abilityList": [
+    "UnderConstruction_Vanguard"
+  ],
+  "buffs": [],
+  "build_cost": {
+    "resource_a": 150.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "commandList": [],
+  "id": "SentryPostScout",
+  "traits": []
+}

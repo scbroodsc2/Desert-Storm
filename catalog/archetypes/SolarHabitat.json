@@ -1,0 +1,21 @@
+﻿{
+  "abilityList": [
+    "UnderConstruction_Vanguard"
+  ],
+  "build_cost": {
+    "resource_a": 375.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "commandList": [],
+  "id": "SolarHabitat",
+  "starting_snowtags": [
+    "entity_unit_structure",
+    "preventdefeat_elimination",
+    "heightplane_ground",
+    "attribute_mechanical",
+    "attribute_heavy",
+    "status_invulnerable"
+  ]
+}

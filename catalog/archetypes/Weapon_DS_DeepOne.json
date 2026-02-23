@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "backswing": 0.5,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "Weapon_DamageRadius_DS_DeepOne",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_WitheringDeath.UI_Icons_Weapons_Stormgates_WitheringDeath'",
+    "id": "Weapon_DS_DeepOne",
+    "name": "pegasus_core|WeaponData_name_ShadowDemonReward_Weapon",
+    "period": 0.4,
+    "range_acquire": 10.0,
+    "range_maximum": 9.0,
+    "swing": 0.666,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_acquire_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_sleeping"
+        ],
+        "required": []
+      }
+    },
+    "weapon_fire": "ShadowDemonReward_Weapon_MissileLauncher",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,64 @@
+﻿{
+  "data": {
+    "abilityList": [],
+    "alias_tech": [
+      "_IronVault"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "buffs": [
+      "Big_Buff"
+    ],
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 32.0,
+    "commandList": [],
+    "enabled_unit_tech": [
+      {
+        "unit": "Brute"
+      },
+      {
+        "unit": "Hellforge"
+      },
+      {
+        "unit": "Obelisk"
+      },
+      {
+        "unit": "GreaterShrine"
+      }
+    ],
+    "footprint": {
+      "angled": false,
+      "clumpable": false,
+      "snap": true,
+      "unbuildable": false,
+      "vision_block_height": 0,
+      "x": 5.0,
+      "y": 5.0
+    },
+    "id": "Unit_DS_IronVault",
+    "inner_radius": 3.0,
+    "name": "pegasus_core|UnitData_Name_IronVault",
+    "outer_radius": 4.0,
+    "subgroup_priority": 42,
+    "unit_button": "IronVault_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_IronVault2.UI_Portrait_Demon_Default_IronVault2'",
+    "unreal_actor": "BP_SD_IronVaultV2_00",
+    "vision_radius": 11.0,
+    "vital_health": {
+      "maximum": 4000.0,
+      "regen": 0.0,
+      "starting": 4000.0
+    },
+    "vital_shield": {
+      "maximum": 1000.0,
+      "regen": 3.0,
+      "starting": 1000.0
+    }
+  },
+  "meta": {}
+}

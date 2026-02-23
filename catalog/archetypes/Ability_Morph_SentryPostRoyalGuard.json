@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "BaseMorphAbilityData",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "NoRequirement",
+        "unit": "SentryPostRoyalGuard"
+      }
+    ],
+    "id": "Ability_Morph_SentryPostRoyalGuard"
+  },
+  "meta": {}
+}

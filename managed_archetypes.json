@@ -1,0 +1,292 @@
+﻿{
+  "map": {
+    "_Region0": {
+      "based_on": "Region",
+      "id": "_Region0",
+      "placed_name": "P1",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region1": {
+      "based_on": "Region",
+      "id": "_Region1",
+      "placed_name": "P2",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region2": {
+      "based_on": "Region",
+      "id": "_Region2",
+      "placed_name": "P3",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region3": {
+      "based_on": "Region",
+      "id": "_Region3",
+      "placed_name": "P4",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region4": {
+      "based_on": "Region",
+      "id": "_Region4",
+      "placed_name": "P5",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region5": {
+      "based_on": "Region",
+      "id": "_Region5",
+      "placed_name": "P6",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 16.0,
+            "rotation": 0,
+            "width": 24.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region6": {
+      "based_on": "Region",
+      "id": "_Region6",
+      "placed_name": "BattleRegion",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 48.0,
+            "rotation": 0,
+            "width": 80.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region7": {
+      "based_on": "Region",
+      "id": "_Region7",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 5.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 0,
+            "rotation": 0,
+            "width": 0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "circle"
+        }
+      ]
+    },
+    "_Stormflyer0": {
+      "based_on": "Stormflyer",
+      "id": "_Stormflyer0",
+      "name": "pegasus_heroes|nitData_name_Stormflyer"
+    },
+    "_Unit_DS_BloodTree0": {
+      "based_on": "Unit_DS_BloodTree",
+      "id": "_Unit_DS_BloodTree0",
+      "placed_name": "TopMain"
+    },
+    "_Unit_DS_BloodTree1": {
+      "based_on": "Unit_DS_BloodTree",
+      "id": "_Unit_DS_BloodTree1",
+      "placed_name": "BottomMain"
+    },
+    "_Unit_DS_IronVault0": {
+      "based_on": "Unit_DS_IronVault",
+      "id": "_Unit_DS_IronVault0",
+      "placed_name": "BottomSilo"
+    },
+    "_Unit_DS_IronVault1": {
+      "based_on": "Unit_DS_IronVault",
+      "id": "_Unit_DS_IronVault1",
+      "placed_name": "TopSilo"
+    },
+    "_Unit_DS_Shroudstone0": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone0",
+      "placed_name": "BottomTowerA"
+    },
+    "_Unit_DS_Shroudstone1": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone1",
+      "placed_name": "BottomTowerB"
+    },
+    "_Unit_DS_Shroudstone2": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone2",
+      "placed_name": "BottomTowerC"
+    },
+    "_Unit_DS_Shroudstone3": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone3",
+      "placed_name": "TopTowerA"
+    },
+    "_Unit_DS_Shroudstone4": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone4",
+      "placed_name": "TopTowerB"
+    },
+    "_Unit_DS_Shroudstone5": {
+      "based_on": "Unit_DS_Shroudstone",
+      "id": "_Unit_DS_Shroudstone5",
+      "placed_name": "TopTowerC"
+    },
+    "_WorldPointBlack0": {
+      "based_on": "WorldPointBlack",
+      "id": "_WorldPointBlack0",
+      "placed_name": "BottomSpawn"
+    },
+    "_WorldPointBlack1": {
+      "based_on": "WorldPointBlack",
+      "id": "_WorldPointBlack1",
+      "placed_name": "TopSpawn"
+    },
+    "_WorldPointBlue0": {
+      "based_on": "WorldPointBlue",
+      "id": "_WorldPointBlue0",
+      "placed_name": "BottomBase"
+    },
+    "_WorldPointBlue1": {
+      "based_on": "WorldPointBlue",
+      "id": "_WorldPointBlue1",
+      "placed_name": "TopBase"
+    },
+    "_WorldPointGreen0": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen0",
+      "placed_name": "P1Spawn"
+    },
+    "_WorldPointGreen1": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen1",
+      "placed_name": "P2Spawn"
+    },
+    "_WorldPointGreen2": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen2",
+      "placed_name": "P3Spawn"
+    },
+    "_WorldPointGreen3": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen3",
+      "placed_name": "P4Spawn"
+    },
+    "_WorldPointGreen4": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen4",
+      "placed_name": "P5Spawn"
+    },
+    "_WorldPointGreen5": {
+      "based_on": "WorldPointGreen",
+      "id": "_WorldPointGreen5",
+      "placed_name": "P6Spawn"
+    }
+  }
+}

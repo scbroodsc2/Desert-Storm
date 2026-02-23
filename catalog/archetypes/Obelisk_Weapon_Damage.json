@@ -1,0 +1,10 @@
+﻿{
+  "amount": 50.0,
+  "death_type": "Burning_DeathType",
+  "id": "Obelisk_Weapon_Damage",
+  "ragdoll": {
+    "enable_chance": true,
+    "launch_angle": 20.0,
+    "launch_power": 1.0
+  }
+}

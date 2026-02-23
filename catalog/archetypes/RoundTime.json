@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "RoundTime",
+  "initial_values": [
+    {
+      "guid": "E02BFB9944EA5F50FE2B2684BC913BC9",
+      "type": "Value",
+      "value": {
+        "guid": "FE49A0614155B66B42909A8A79E73FCC",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        },
+        "value": "0"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Integer"
+  }
+}

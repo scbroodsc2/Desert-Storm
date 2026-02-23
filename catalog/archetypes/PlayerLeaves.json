@@ -1,0 +1,379 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Debug_DebugMessage",
+      "guid": "4EC73358463AA57850471FA5913233B5",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "3D29825642E0CFAC2CCEF1893836D37E",
+              "preset": {
+                "guid": "C70C32074CD9AFCC60F4D18565527CB5",
+                "preset_id": "Debug_DebugMessageTag",
+                "value_id": "notag"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "A90EBE8842D2714CDB7103B37D7EC839",
+          "id": "tag"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "8741C38447B6C1E3CAAFD2A69D2F0241",
+              "type": "Value",
+              "value": {
+                "guid": "1FB87261497F9FED16DBE091432F418C",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "String"
+                },
+                "value": "Player Join/Leaves event is bugged and make the map not compile"
+              }
+            }
+          ],
+          "guid": "0685C12046FB416BDA72EC9F5A89E6BE",
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "74170E384F7FC0E549F92E991ED44701",
+              "type": "Value",
+              "value": {
+                "guid": "809C01754A084BAE405577BB57511577",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "10.0"
+              }
+            }
+          ],
+          "guid": "CBF15BB24E713206AEA4BABFD02C9970",
+          "id": "duration"
+        }
+      ]
+    },
+    {
+      "function_id": "UnitGroup_ForEachUnitInGroup",
+      "guid": "EA88D9D24F82D8396174A1A7989089D1",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "UnitGroup_GetUnitsInRegion",
+                "guid": "225592ED41F512AC17DFE2A81785E40D",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Region_GetRegionFromPlacedName",
+                          "guid": "8A27F1DF474B0241CE2077ABA97D6C49",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "String_Concat",
+                                    "guid": "BBB701CB44861CE7F23273A5C96C7125",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "A05443B44912F904A3FF0C9631DB4232",
+                                            "type": "Value",
+                                            "value": {
+                                              "guid": "FF9DD32B4733F71580E2D7BD163B0850",
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "implements": "",
+                                                "inner_type": "",
+                                                "param_id": "",
+                                                "sub_directive": "None",
+                                                "tags": [
+                                                  "to_string"
+                                                ],
+                                                "type": "String"
+                                              },
+                                              "value": "P"
+                                            }
+                                          },
+                                          {
+                                            "function": {
+                                              "function_id": "Player_GetTriggeringPlayer",
+                                              "guid": "8E1DB28E4175A61AA2AACFB17C89EEA5"
+                                            },
+                                            "guid": "DE0F7D3849FD5103E13DCFA33B1DBB23",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "BD9C98F946B4EFC8BD49D4B67671697E",
+                                        "id": "strings"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "373FBC1F42FB7B256D9A6DB78FBD6B76",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "51B373C641F60A942147CFAB6C76048F",
+                              "id": "name"
+                            }
+                          ]
+                        },
+                        "guid": "DE5BA93F449861E26278D7B4C6272948",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "D019D06C45CCDCEF5DED7DA8CBE68FD2",
+                    "id": "region"
+                  }
+                ]
+              },
+              "guid": "FF987DBD4266139DCF2732808BBC3F51",
+              "type": "Function"
+            }
+          ],
+          "guid": "8A48CDD145554429B8B19E9044DDB838",
+          "id": "units"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_Remove",
+              "guid": "9DE6F2F74DAEDD9CFDE97892450F03E9",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_GetCurrentUnit",
+                        "guid": "7CC1FDBA414A3A93457FFA88314836F2"
+                      },
+                      "guid": "C87EBF2E4EEB8E5CD2FE39954E03AD92",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "F6720D8846FA694A6D3B579AE9966917",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "Callouts_Major",
+              "guid": "23CDDA4541940549B22464A69295FCA3",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "guid": "8DD2088744255B635C75A7826C379878",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "String_Concat",
+                                  "guid": "4F4D54784654CD883D578A9D203564C1",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "46A05DD84294E04819155FBA40E6DDB3",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "0FD040F349B65DA5091E81AA02F34072",
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "tags": [
+                                                "to_string"
+                                              ],
+                                              "type": "String"
+                                            },
+                                            "value": "Player "
+                                          }
+                                        },
+                                        {
+                                          "function": {
+                                            "function_id": "Player_GetTriggeringPlayer",
+                                            "guid": "8EC896FA4FA88A78A3C1BEA35DC944A4"
+                                          },
+                                          "guid": "B3189461451B238C1D74918E7BD0F7DC",
+                                          "type": "Function"
+                                        },
+                                        {
+                                          "guid": "C7B9E5064FFAFDF10CBC649AD604F2AD",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "EB3FC35A4CA4BABE964C2F9E77088EB9",
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "tags": [
+                                                "to_string"
+                                              ],
+                                              "type": "String"
+                                            },
+                                            "value": " left the game."
+                                          }
+                                        }
+                                      ],
+                                      "guid": "02CBC6804336DB7B36116BBD896D3765",
+                                      "id": "strings"
+                                    }
+                                  ]
+                                },
+                                "guid": "66DFBD2D47FB659531EEC4BA153E8186",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "F11C58B340613C83134F3BB02A8D1DF2",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "guid": "9ED5621C402DB9A4599A87A10FB389C0",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "E3FC03674EF0579D5838B49653DFAB9E",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "11360372448309A05EB5929D569D41E5",
+                      "type": "Value",
+                      "value": {
+                        "guid": "B26E987A46204E8EADDE5DA686D8798E",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "2"
+                      }
+                    }
+                  ],
+                  "guid": "1EA24BA848EF203AF99FF999C3ACF7CE",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "AC9FF12B4166897842D72B8EA4096AEE",
+                      "type": "Value",
+                      "value": {
+                        "guid": "94870FE14EA9AF84563441A3DEFBE61C",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "D2C2AFDF4A2A080E81D5EC90EAA7FA22",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "27D101554804B0F565F0BEACC1DB348B",
+                      "type": "Value",
+                      "value": {
+                        "guid": "32E53198489E9D35AA69D184D8C2E021",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "89725A344C11114A687AACBE58C8AB51",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "98517D1F45C577C60E2A438F8823627F",
+                      "type": "Value",
+                      "value": {
+                        "guid": "53B485784860F13FBE13AB81C3533097",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "3E306C414C33F5108C563AA9620AB760",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "7CE32F5C4CE7F04FC9E3E88D68AD907F"
+                      },
+                      "guid": "EB9263D64A59936D13CE7A9BC6B1E677",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "9238BF044ECF92940F22BE98D9B0CD8C",
+                  "id": "group"
+                }
+              ]
+            }
+          ],
+          "guid": "46D8FB9F4416F3E243BF79A6DF010B56",
+          "id": "actions"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "id": "PlayerLeaves"
+}

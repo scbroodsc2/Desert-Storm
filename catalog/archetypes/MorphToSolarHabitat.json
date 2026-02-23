@@ -1,0 +1,15 @@
+﻿{
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 0.0,
+        "name": "",
+        "scope": "Ability"
+      },
+      "requirement": "Req_CompletedHQTier2",
+      "unit": "SolarHabitat"
+    }
+  ],
+  "height_transition_initial_delay": 0.0,
+  "id": "MorphToSolarHabitat"
+}

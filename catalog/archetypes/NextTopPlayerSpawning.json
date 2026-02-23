@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "NextTopPlayerSpawning",
+  "initial_values": [
+    {
+      "guid": "E5FC49AF4399AB9F202509A1E062EFBD",
+      "type": "Value",
+      "value": {
+        "guid": "020AE586433517C9FDB9CD900664032E",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Player"
+        },
+        "value": "1"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Player"
+  }
+}

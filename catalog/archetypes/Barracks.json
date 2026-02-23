@@ -1,0 +1,15 @@
+﻿{
+  "abilityList": [
+    "UnderConstruction_Vanguard"
+  ],
+  "commandList": [],
+  "id": "Barracks",
+  "starting_snowtags": [
+    "entity_unit_structure",
+    "preventdefeat_elimination",
+    "attribute_mechanical",
+    "attribute_heavy",
+    "heightplane_ground",
+    "status_invulnerable"
+  ]
+}

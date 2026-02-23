@@ -1,0 +1,102 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "UnderConstructionData",
+      "attackData",
+      "stopData"
+    ],
+    "alias_tech": [
+      "_Shroudstone"
+    ],
+    "armor": 10.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "attack_target_priority": 20,
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 150.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 60.0,
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "ImmobileAttack_Button",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_acquire_level": "Offensive",
+    "flags": {
+      "detector": true,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false
+    },
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 3.0,
+      "y": 3.0
+    },
+    "id": "Unit_DS_Shroudstone",
+    "name": "pegasus_core|UnitData_Name_Obelisk",
+    "outer_radius": 1.7,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "preventdefeat_elimination",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_heavy",
+      "defensive",
+      "attribute_ranged"
+    ],
+    "subgroup_priority": 21,
+    "targeting_participation_alias": [
+      "_ShroudstoneManifestationTargeting"
+    ],
+    "traits": [
+      "Detector_Trait"
+    ],
+    "turret_list": [
+      "Turret_Obelisk"
+    ],
+    "unit_button": "Obelisk_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/DS_Portrait_ShroudStone.DS_Portrait_ShroudStone'",
+    "unreal_actor": "BP_SD_ShroudstoneV2_00",
+    "veterancy_given_on_death": 200,
+    "vision_radius": 13.0,
+    "vital_health": {
+      "maximum": 1000.0,
+      "regen": 0.0,
+      "starting": 1000.0
+    },
+    "vital_shield": {
+      "maximum": 100.0,
+      "regen": 5.0,
+      "starting": 100.0
+    },
+    "weaponList": [
+      "Obelisk_Weapon"
+    ]
+  },
+  "meta": {}
+}

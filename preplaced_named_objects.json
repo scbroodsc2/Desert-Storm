@@ -1,0 +1,624 @@
+{
+  "02AD0028-4433-F980-D82D-059CB260429D": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      557056,
+      -884736
+    ]
+  },
+  "034F1649-40FE-2C90-6A23-3C956673D22E": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 4,
+    "position": [
+      -1097728,
+      -1032192
+    ]
+  },
+  "0C6C4D6E-4EC8-76DA-E86D-2482DA35F249": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1212416,
+      -884736
+    ]
+  },
+  "0CBBE1B5-4A13-9074-3CD5-29AFF89C0F45": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -294912,
+      -884736
+    ]
+  },
+  "11EE725C-42D4-70C2-29FA-45B677C3B9B0": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -163840,
+      -884736
+    ]
+  },
+  "1762C970-44C4-E8A1-AC2B-0993A9B882ED": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1081344,
+      1343488
+    ]
+  },
+  "1CEA3D8C-4879-0318-DB76-5D82746ABA46": {
+    "facing": 1073741853,
+    "kind": "_Unit_DS_IronVault1",
+    "player": 7,
+    "position": [
+      540672,
+      311296
+    ]
+  },
+  "1F832C7A-4194-EF1A-AAB1-74B7F6E7340B": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -229376,
+      -884736
+    ]
+  },
+  "2228236C-49EC-90EC-0D53-269716860F6F": {
+    "facing": 0,
+    "kind": "_Region5",
+    "player": 1,
+    "position": [
+      851968,
+      -1114112
+    ]
+  },
+  "2F0407D6-4963-E791-973A-4DB9C1693C97": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -950272,
+      1343488
+    ]
+  },
+  "30896B3E-49D7-BCD9-B5B2-858FAF4D98F8": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -294912,
+      1343488
+    ]
+  },
+  "32179956-4A2F-2060-EE86-C49A758DB128": {
+    "facing": 199599723,
+    "kind": "_Unit_DS_Shroudstone0",
+    "player": 8,
+    "position": [
+      -999424,
+      -524288
+    ]
+  },
+  "3308734B-4483-4278-FFF0-2F9C72893021": {
+    "facing": 1486731903,
+    "kind": "_Unit_DS_Shroudstone3",
+    "player": 7,
+    "position": [
+      917504,
+      606208
+    ]
+  },
+  "3332D9DB-4F5D-F663-750A-E4A830DE2C7C": {
+    "facing": 0,
+    "kind": "_Unit_DS_BloodTree1",
+    "player": 8,
+    "position": [
+      -1015808,
+      -622592
+    ]
+  },
+  "3399F103-49AF-AC93-53F9-A9996DD9C927": {
+    "facing": 0,
+    "kind": "_Region4",
+    "player": 1,
+    "position": [
+      0,
+      -1114112
+    ]
+  },
+  "39957FB2-42FE-C907-2FA7-A391D251BF28": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      688128,
+      1343488
+    ]
+  },
+  "4515B9FD-4BFA-1250-1310-08AAC43E90BF": {
+    "facing": 0,
+    "kind": "_Region6",
+    "player": 7,
+    "position": [
+      0,
+      0
+    ]
+  },
+  "4BA52722-4C33-F331-7A5B-F7847E3B9ACA": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -32768,
+      -884736
+    ]
+  },
+  "4D231277-47B3-1678-F250-9792B2B23791": {
+    "facing": 232871587,
+    "kind": "_Unit_DS_Shroudstone2",
+    "player": 8,
+    "position": [
+      -917504,
+      -606208
+    ]
+  },
+  "4FE83CEF-4805-7DC7-0EE1-EEBD5DCF97F4": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 5,
+    "position": [
+      -212992,
+      -1064960
+    ]
+  },
+  "52B21433-4EDC-AB16-7E90-FBA390711A48": {
+    "facing": 0,
+    "kind": "_Region1",
+    "player": 1,
+    "position": [
+      0,
+      1114112
+    ]
+  },
+  "5BE2B270-4044-31DF-57C3-30BC51AE032D": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -884736,
+      1343488
+    ]
+  },
+  "60C02E50-433E-0719-D73F-1D826A0A0068": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -884736,
+      -884736
+    ]
+  },
+  "615C2192-40AF-127D-8CA8-29BDFF91A8E6": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      491520,
+      1343488
+    ]
+  },
+  "63F5E97C-44EC-B275-D3D5-408CD0BCB418": {
+    "facing": 1365334308,
+    "kind": "_Unit_DS_Shroudstone4",
+    "player": 7,
+    "position": [
+      950272,
+      557056
+    ]
+  },
+  "6A11D05E-449C-C861-2514-E98AC8A81C6C": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      753664,
+      -884736
+    ]
+  },
+  "6C4B061D-4D40-F3F8-7C50-36A2DFD5A574": {
+    "facing": 566082328,
+    "kind": "_Unit_DS_BloodTree0",
+    "player": 7,
+    "position": [
+      1015808,
+      622592
+    ]
+  },
+  "7531D184-4D19-DEB8-1B21-69AA54BC965B": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -98304,
+      1343488
+    ]
+  },
+  "78D138E2-42EA-0CA6-1A13-52B0DB223C0C": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -360448,
+      1343488
+    ]
+  },
+  "7B79612A-48D7-8A2A-8D67-45B5B94241E1": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 2,
+    "position": [
+      -229376,
+      1146880
+    ]
+  },
+  "7FCFBA20-4FD6-0635-D9D6-D6A3E04CAE46": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1081344,
+      -884736
+    ]
+  },
+  "86604471-4E7F-126D-2C53-15B0BCCBAFC9": {
+    "facing": 0,
+    "kind": "_WorldPointBlue0",
+    "player": 6,
+    "position": [
+      -973895,
+      -582105
+    ]
+  },
+  "87B27483-479C-6739-5494-7192BF9ED22A": {
+    "facing": 0,
+    "kind": "_WorldPointGreen1",
+    "player": 6,
+    "position": [
+      -223567,
+      1154107
+    ]
+  },
+  "8C13D98C-45BC-1BB2-13C1-41872BD4E4DD": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1015808,
+      1343488
+    ]
+  },
+  "912EF97B-414C-4BB5-E399-F59CB15EB2CD": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -32768,
+      1343488
+    ]
+  },
+  "97C17D9F-45D7-CF5C-F88F-B8889D82CB8B": {
+    "facing": 0,
+    "kind": "_WorldPointGreen3",
+    "player": 6,
+    "position": [
+      -1093636,
+      -1027205
+    ]
+  },
+  "9D7B1190-4A43-570D-815B-31A327F535C7": {
+    "facing": 1073741853,
+    "kind": "_WorldPointBlack1",
+    "player": 1,
+    "position": [
+      1085005,
+      457798
+    ]
+  },
+  "9EC30381-4B64-2E7B-AACA-789767634593": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      622592,
+      -884736
+    ]
+  },
+  "A51419DD-4E0D-7ED5-F44E-A79DA04D9580": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 6,
+    "position": [
+      622592,
+      -1081344
+    ]
+  },
+  "A6931249-45F3-ED71-3EFC-D98F846FB843": {
+    "facing": 1073741911,
+    "kind": "_WorldPointBlue1",
+    "player": 6,
+    "position": [
+      975105,
+      581227
+    ]
+  },
+  "A73226AE-4C9A-E544-939D-71BD9B688535": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 1,
+    "position": [
+      -1097728,
+      1146880
+    ]
+  },
+  "AF8C8B8E-4CAF-FB00-E398-1E813C3A5081": {
+    "facing": 226507957,
+    "kind": "_Unit_DS_Shroudstone1",
+    "player": 8,
+    "position": [
+      -950272,
+      -557056
+    ]
+  },
+  "B208D74A-43CB-0774-DD93-98BC516648A1": {
+    "facing": 0,
+    "kind": "_WorldPointBlack0",
+    "player": 1,
+    "position": [
+      -1085005,
+      -457798
+    ]
+  },
+  "B401CF16-4CCB-CEDB-E969-389297838B1E": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      491520,
+      -884736
+    ]
+  },
+  "B4E3E7C7-49F6-32E4-F7F2-609C32F23B7A": {
+    "facing": 0,
+    "kind": "_WorldPointGreen0",
+    "player": 6,
+    "position": [
+      -1094796,
+      1160424
+    ]
+  },
+  "B914519F-48AB-C05E-0836-31A5A3A7AA3F": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      557056,
+      1343488
+    ]
+  },
+  "B9B497B2-4902-E3AE-857F-189F3431C986": {
+    "facing": 0,
+    "kind": "_Region0",
+    "player": 1,
+    "position": [
+      -851968,
+      1114112
+    ]
+  },
+  "BC088934-4357-E508-5907-24A7B734C397": {
+    "facing": 0,
+    "kind": "_WorldPointGreen2",
+    "player": 6,
+    "position": [
+      608153,
+      1169355
+    ]
+  },
+  "BCDA0CD2-41C8-3857-F592-1296E3486588": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      819200,
+      -884736
+    ]
+  },
+  "BEEB2C6B-4DD9-10C7-CF62-B6BC058081ED": {
+    "facing": 1396956279,
+    "kind": "_Unit_DS_Shroudstone5",
+    "player": 7,
+    "position": [
+      999424,
+      524288
+    ]
+  },
+  "C5FC552F-42AA-43D4-D4B2-1E8593178DA9": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      819200,
+      1343488
+    ]
+  },
+  "C68741C5-4D74-D230-D90A-24979D4B7C34": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1146880,
+      -884736
+    ]
+  },
+  "CC0D4E4C-43D2-1852-BDAE-BB9F3AF86FAD": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -229376,
+      1343488
+    ]
+  },
+  "CE4D9DFC-43E9-2F0D-1CB8-A9944959480C": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1212416,
+      1343488
+    ]
+  },
+  "D89A3188-440D-896F-AB4D-37AF40DD9E88": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1146880,
+      1343488
+    ]
+  },
+  "D937D3A6-4698-632C-003C-EA9BF1C7AA21": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      688128,
+      -884736
+    ]
+  },
+  "DA9260CF-4D05-EDDC-B08C-5A9176A72A31": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -1015808,
+      -884736
+    ]
+  },
+  "DE6873BF-4041-8EAE-0D7C-79893B88D0BC": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -163840,
+      1343488
+    ]
+  },
+  "E0C613EB-44CD-29A7-66B6-64ADBD69AA27": {
+    "facing": 0,
+    "kind": "_Region2",
+    "player": 1,
+    "position": [
+      851968,
+      1114112
+    ]
+  },
+  "E15996FF-48C1-81A7-B96B-DC84A20B3BCE": {
+    "facing": 0,
+    "kind": "_Unit_DS_IronVault0",
+    "player": 8,
+    "position": [
+      -540672,
+      -311296
+    ]
+  },
+  "E4906641-4A23-0D40-7C9B-E18564CA26EC": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -950272,
+      -884736
+    ]
+  },
+  "E6994688-4308-E1A2-DA97-5085255267EC": {
+    "facing": 0,
+    "kind": "_Region3",
+    "player": 1,
+    "position": [
+      -851968,
+      -1114112
+    ]
+  },
+  "EA77C9CB-4354-F96E-50C9-77A31976FA2A": {
+    "facing": 0,
+    "kind": "_WorldPointGreen5",
+    "player": 6,
+    "position": [
+      624853,
+      -1069780
+    ]
+  },
+  "EB5398CB-4A6D-1E89-3869-C2A4BC5F9ABA": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -360448,
+      -884736
+    ]
+  },
+  "EC13739F-475A-D161-ABCC-5BBA57F5FDFD": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      -98304,
+      -884736
+    ]
+  },
+  "F6FB6805-4F95-C7A0-B179-42BA4720A755": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      753664,
+      1343488
+    ]
+  },
+  "FD4B9749-4A04-FECB-414D-9BA3B866E149": {
+    "facing": 0,
+    "kind": "MegaResourceA",
+    "player": 1,
+    "position": [
+      622592,
+      1343488
+    ]
+  },
+  "FEBA6977-4EE5-CF1F-BFCD-4988422B73B2": {
+    "facing": 0,
+    "kind": "_WorldPointGreen4",
+    "player": 6,
+    "position": [
+      -210431,
+      -1055893
+    ]
+  },
+  "FEF9A243-4339-E91A-9FB1-EF93527BB735": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 3,
+    "position": [
+      606208,
+      1163264
+    ]
+  },
+  "version": 1
+}

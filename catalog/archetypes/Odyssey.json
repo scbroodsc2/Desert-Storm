@@ -1,0 +1,8 @@
+﻿{
+  "id": "Odyssey",
+  "vital_health": {
+    "maximum": 900.0,
+    "regen": 0.0,
+    "starting": 900.0
+  }
+}

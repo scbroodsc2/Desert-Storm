@@ -1,0 +1,346 @@
+﻿{
+  "data": {
+    "based_on": "ConstructAbilityData",
+    "commands": [
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 50.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "NoRequirement",
+        "unit": "LesserShrine",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 150.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedLesserShrine_Requirement",
+        "unit": "TributePyre",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 250.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedLesserShrine_Requirement",
+        "unit": "IronVault",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 300.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedLesserShrine_Requirement",
+        "unit": "Conclave",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 450.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedGreaterShrine_Requirement",
+        "unit": "TwilightSpire",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 650.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedIronVaultORCompletedConclave_Requirement",
+        "unit": "Obelisk",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 700.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedConclave_Requirement",
+        "unit": "RitualChamber",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 450.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedIronVault_Requirement",
+        "unit": "Hellforge",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 550.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedGreaterShrine_Requirement",
+        "unit": "Slaughterpit",
+        "validator": "emptyRef"
+      },
+      {
+        "constructed_effect": "emptyRef",
+        "construction_effect": "emptyRef",
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "overrides": {
+          "build_time": 0.0,
+          "cost_resources": {
+            "resource_a": 1000.0,
+            "resource_b": 0.0,
+            "resource_c": 0.0,
+            "resource_d": 0.0
+          },
+          "ignore_unit_resource_cost": true
+        },
+        "requirement": "CompletedGreaterShrine_Requirement",
+        "unit": "ShadowCleft",
+        "validator": "emptyRef"
+      }
+    ],
+    "flags": {
+      "best_unit": true,
+      "build_inside": false,
+      "consume_worker": false,
+      "redirect_commands_to_topbar": false,
+      "requires_vision": false,
+      "requires_workers": true,
+      "use_structure_radius": true
+    },
+    "id": "WorkerConstructInfernal",
+    "ignore_cascadefield_requirements": true,
+    "smart": {
+      "priority": 999,
+      "smart_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": true,
+          "neutral": true,
+          "player": true,
+          "self": true
+        },
+        "tags": {
+          "excluded": [],
+          "required": []
+        }
+      }
+    },
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Channel_Worker_Work.AC_Ability_Channel_Worker_Work_C'"
+  },
+  "meta": {}
+}

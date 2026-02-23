@@ -1,0 +1,15 @@
+﻿{
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 70.0,
+        "name": "Morph_HQ_01_to_02",
+        "scope": "Ability"
+      },
+      "requirement": "CompletedHangarBayORCompletedMachineLab_Requirement",
+      "unit": "HQTier3"
+    }
+  ],
+  "id": "MorphToHQTier3",
+  "morph_duration": 0.0
+}

@@ -1,0 +1,29 @@
+﻿{
+  "based_on": "MorphAbilityData",
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 0.0,
+        "name": "",
+        "scope": "Ability"
+      },
+      "requirement": "Req_CompletedScrapyard",
+      "unit": "Rampart"
+    }
+  ],
+  "flags": {
+    "approach": false,
+    "best_unit": true,
+    "builds": false,
+    "cancelable": false,
+    "disable_abilities": false,
+    "placement": false,
+    "unload_cargo": false,
+    "upgrade": true
+  },
+  "height_transition_initial_delay": 0.0,
+  "id": "MorphToRampart",
+  "morph_duration": 0.5,
+  "progress_description": "pegasus_core|MorphAbilityData_progress_description_Progress",
+  "vital_energy_update": "refresh_starting_value"
+}

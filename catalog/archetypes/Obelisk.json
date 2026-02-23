@@ -1,0 +1,7 @@
+﻿{
+  "id": "Obelisk",
+  "shroud_radius": 0.0,
+  "traits": [
+    "Detector_Trait"
+  ]
+}

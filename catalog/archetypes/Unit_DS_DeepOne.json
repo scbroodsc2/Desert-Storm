@@ -1,0 +1,153 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData"
+    ],
+    "armor": 20.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_DarksoulArmor.UI_Icons_Armor_Stormgates_DarksoulArmor'",
+    "armor_name": "pegasus_core|UnitData_armor_name_ShadowDemonReward",
+    "based_on": "BaseUnit_InfernalU",
+    "buffs": [
+      "Big_Buff"
+    ],
+    "build_cost": {
+      "resource_a": 0.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.2,
+    "cargo_size": "Eight",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "StormgateWarpBuffApplier",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "emptyRef"
+    },
+    "id": "Unit_DS_DeepOne",
+    "inner_radius": 1.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": false,
+        "ground_tall": true,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.5,
+      "pathing_mode": "Ground",
+      "push_priority": 3,
+      "push_priority_same_team": 0,
+      "speed": 6.0,
+      "stationary_turn_period": 0.7,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_ShadowDemonReward",
+    "outer_radius": 2.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_heavy",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_resilient"
+    ],
+    "subgroup_priority": 109,
+    "supply_cost": 12.0,
+    "traits": [
+      "ShadowDemonHighSight_Trait"
+    ],
+    "unit_button": "StormgateAbilityCreateTier3ShadowDemon_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ShadowDemonReward.UI_Portrait_Demon_Default_ShadowDemonReward'",
+    "unreal_actor": "BP_UD_ShadowDemonReward_00",
+    "veterancy_given_on_death": 1200,
+    "vision_height": 2.0,
+    "vision_radius": 12.0,
+    "vital_health": {
+      "maximum": 4000.0,
+      "regen": 10.0,
+      "starting": 4000.0
+    },
+    "vital_shroud_bonus_health_flat": 0.0,
+    "weaponList": [
+      "Weapon_DS_DeepOne"
+    ]
+  },
+  "meta": {}
+}

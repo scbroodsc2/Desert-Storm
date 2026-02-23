@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "RegionGroupTop",
+    "initial_values": [
+      {
+        "guid": "055097F3482D89D1591AE9B43617B1EC",
+        "preset": {
+          "guid": "4424CA7F419711A707AF818187C991DC",
+          "preset_id": "RegionGroup_NoRegionGroup",
+          "value_id": "none"
+        },
+        "type": "Preset"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "RegionGroup"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "BaseMorphAbilityData",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "NoRequirement",
+        "unit": "SentryPostLancer"
+      }
+    ],
+    "id": "Ability_Morph_SentryPostLancer"
+  },
+  "meta": {}
+}

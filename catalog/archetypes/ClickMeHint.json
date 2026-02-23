@@ -1,0 +1,179 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Callouts_Hint",
+      "guid": "0971DE164A3339B5D3CC688E01236ED8",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "guid": "B2276C3B498A1F023079EDB67DF88712",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5EACFED94AA7A3372D02AC9AA86D5869",
+                        "type": "Value",
+                        "value": {
+                          "guid": "D1448A4B47237C78C78BD682D0BD5A2D",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "tags": [
+                              "to_text"
+                            ],
+                            "type": "String"
+                          },
+                          "value": "MedStation -> 1 Medtech, Ambush Posts -> 1 Empath, Artillery Cannon -> 1 Rocketeer, Flak Cannon -> 1 Exo, Buzzsaw Cannon -> 1 Hoplite, Repair-O-Matic -> 1 Servo, Sensor Array -> 2 Scout, Barracks -> 2 Lancer, Habitat -> 2 MechaScout, Solar Habitat -> 1 Sentinel, Rampart -> 2 Hornet, Hangar Bay -> 1 Vulcan, Mech Bay -> 2 Hedghog, Biokinetics Lab -> 1 Atlas, Scrapyard -> 1 Outrunner, Machine Lab -> 1 V5 Rocket Launcher, Central Command -> 1 Hurricane, High Command -> 1 Odyssey, Greater Shrine -> 4 Gaunt, Elder Shrine -> 1 Incarnate, Tribute Pyre -> 1 Hexen, Iron Vault -> 1 Brute, Conclave -> 1 Pandora, Twilight Spire -> 2 Spriggan, Shroudstone -> 1 Magmadon, Ritual Chamber -> 1 Weaver, Hellforge -> 1 Hellborne, Blood Tree -> 1 Flayed Dragon"
+                        }
+                      }
+                    ],
+                    "guid": "0F850ADE46BD62C7C1A49CAA1B9E4E44",
+                    "id": "value"
+                  }
+                ]
+              },
+              "guid": "6346D2844E0043E4D4FBC9939ABEBF4A",
+              "type": "Function"
+            }
+          ],
+          "guid": "B0FBC4D2411413DF37813790613E74B4",
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "EE86B1E84D2BC21C81A2FA830D4EE5AA",
+              "type": "Value",
+              "value": {
+                "guid": "CD46975E450315DEC17A66B9126DDA7F",
+                "type": {
+                  "directive": "AssetRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Texture"
+                },
+                "value": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CallToFight.UI_Icons_Abilities_CallToFight'"
+              }
+            }
+          ],
+          "guid": "2D4B39714F79459D4FB5B88D239CA5C7",
+          "id": "icon"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "805A7F29434B491405C7F9BD9182B9A2",
+              "type": "Value",
+              "value": {
+                "guid": "F67A302A432B87320E87CFB50292B69B",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "5"
+              }
+            }
+          ],
+          "guid": "226DE93B42508DDF38682BBCF838C8F1",
+          "id": "lifetime"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "CE3FC21E4F14A063C7CD8DA7E6778275",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Ability_GetTriggeringAbility",
+                "guid": "0539D9BB489945B9AFB04AA4BEA129DC"
+              },
+              "guid": "83219B7A48C6582EEBFC5EAE1E3A8D5E",
+              "type": "Function"
+            }
+          ],
+          "guid": "98C452894D84A0E8BB27209130A77EC6",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "E7E1160A41930B6437A9849DFA14AF3C",
+              "preset": {
+                "guid": "6E32775A4EC70F43EE72EF9DC609FFF4",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "eq"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "358304334563AF7FEBE3AFBD52D3767E",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "00C86F3449141F67660330ABAA46D6CD",
+              "type": "Value",
+              "value": {
+                "guid": "63FF595743064D21C0B1BF92FE2C4BE7",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "ability_data",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": ""
+                },
+                "value": "Ability_DS_ClickMeHint"
+              }
+            }
+          ],
+          "guid": "785D8E7F4CF3802830F42592906AFC10",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Unit_OnAbilityUsed",
+      "guid": "94A0CB6A4DDA50F528403DAA41AAA79D",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "23F2C6364C6B31CB8658A1A4FEB9BB5B",
+              "preset": {
+                "guid": "94628C654D65D0F959A6DA83D7CB2036",
+                "preset_id": "Unit_AnyUnit",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "7E4FC0CC4348287C81E9DBADFD0A0320",
+          "id": "unit"
+        }
+      ]
+    }
+  ],
+  "id": "ClickMeHint"
+}

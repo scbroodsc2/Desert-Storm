@@ -1,0 +1,129 @@
+﻿{
+  "based_on": "DefaultMapSettings",
+  "description": "Tug of war inspired by Desert Strike",
+  "id": "InstanceMapSettings",
+  "lighting_settings": "DefaultLightingTOD",
+  "player_slots": [
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 4.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "ai"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 4.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "ai"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    }
+  ],
+  "tileset": "TerrainTileset_Deadlands",
+  "time_of_day": {
+    "scale": 1.0
+  },
+  "title": "Desert Storm"
+}

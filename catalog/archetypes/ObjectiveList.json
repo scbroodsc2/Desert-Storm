@@ -1,0 +1,82 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "ObjectiveList",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "Objectives_List_Create",
+        "guid": "ED097CC44B85BF1C223F2DB2FF033934",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_EmptyText",
+                  "guid": "E39880E14F34BC87B8F9B6AF577EE3B4"
+                },
+                "guid": "63526A004D1B4A1EB6D14D806CA4C98B",
+                "type": "Function"
+              }
+            ],
+            "guid": "08181A914996FDA91D15B595EF89002E",
+            "id": "title"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "35AE65B84E2BF899CC347CA184098F5B",
+                "preset": {
+                  "guid": "EAA28FE54C21DB4314DEE6B2D1BE6B95",
+                  "preset_id": "General_EnableDisable",
+                  "value_id": "enable"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "4C01F9DF4334AF70B9284599DB362FE7",
+            "id": "enabled"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "0065ADEF4C3E4449626767B5689C18F1",
+                "preset": {
+                  "guid": "5172D4F34C243317F14875AF7C3E65D7",
+                  "preset_id": "General_Visible",
+                  "value_id": "visible"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "023D25AB4B34B3AC499EB994363D76D5",
+            "id": "visible"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "1B331F1340D1382B75D075A3A47228F0"
+                },
+                "guid": "E14B280242DA015A255DBC846AA2B2A8",
+                "type": "Function"
+              }
+            ],
+            "guid": "406303AE4DE6C7D0CFF2A9BE4EBB7AC8",
+            "id": "player_group"
+          }
+        ]
+      },
+      "guid": "0EC477D4493047D66C9B9DA3EB9EF1EA",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "ObjectivesList"
+  }
+}
