@@ -8,7 +8,9 @@
   "gameplay_level_name": "BasicStartingLevel",
   "id": "fc7d61d8-4bd0-084b-ed95-13b48f2aa73d",
   "map_name": "Desert Storm",
-  "map_tags": [],
+  "map_tags": [
+    "Arcade"
+  ],
   "version": "1.0.0",
   "visibility": "Hidden"
 }
